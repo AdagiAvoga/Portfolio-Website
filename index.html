@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website-Dinah Adagi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I'm <span> Dinah Avoga </span><br>Adagi from Kitale</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------------->
+     <div id="about">
+       <div class="container"></div>
+            <div class="row">
+    <div class="about-col-1">
+        <img src="images/my.jpg">
+    </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hi! I'm Dinah, a passionate tech enthusiast with a strong background in 
+                Information Systems and Knowledge Management. 
+                I thrive on solving complex problems through technology and enjoy creating meaningful digital experiences. 
+                Currently, I'm expanding my skills in web development 
+                and exploring exciting opportunities in Full Stack Development, AI for Software Engineering and Software Testing.</p>
+           <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('interests')">Interests</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="interests">
+              <ul>
+                    <li><span>Web Development</span><br>Designing functional websites</li>
+                    <li><span>Artificial Intelligence</span><br>Exploring how AI can enhance software engineering and improve digital solutions</li>
+                    <li><span>Digital Marketing</span><br>Combine Tech and Marketing for effective online strategies</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2025</span><br>Designing and developing visually appealing and highly functional websites</li>
+                    <li><span>2023</span><br>Clerk Operating the verification process</li>
+                    <li><span>2022</span><br>Digital Marketing at Ajira Digital</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2024</span><br>Excel Training at Simplilearn</li>
+                    <li><span>2019-2023</span><br>Bachelor of Science in Information Systems and Knowledge Management at Masinde Muliro University of Science and Technology</li>
+                    <li><span>2018-2019</span><br>Certificate of Computer Applications</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--------------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class ="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Front-End Web Development:HTML,CSS,Javascript</p>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Development</h2>
+                    <p>Back-End Development:Node.js,Databases</p>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Social Media Marketing and Paid Advertising</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class ="sub-title">My Projects</h1>
+                        <h3>Business profile Manager</h3>
+                        <p>To enhance the visibility of my business, I've integrated my Google business profile.</p>
+                        <a href="https://g.page/rCcVMVRGKcCipEBI/review"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/">
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from Playstore</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div> -->
+                </div>
+            <!-- </div>
+            <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+<!------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class = "fas fa-paper-plane"></i>dinahavoga@gmail.com</p>
+                <p><i class = "fas fa-phone-square-alt"></i>0743721340</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/dinah.avoga"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dinah-avoga"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Dinah Adagi_Cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @. Made by Dinah</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
