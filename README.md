@@ -15,24 +15,3 @@ CSS3
 
 JavaScript
 
-
-🔗 Live Demo
-🌐 View Portfolio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info Portfolio-Website
